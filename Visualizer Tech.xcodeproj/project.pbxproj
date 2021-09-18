@@ -12,9 +12,21 @@
 		400FB9CB1E6C472400682135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400FB9C91E6C472400682135 /* Main.storyboard */; };
 		400FB9CD1E6C472400682135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400FB9CC1E6C472400682135 /* Assets.xcassets */; };
 		400FB9D01E6C472400682135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400FB9CE1E6C472400682135 /* LaunchScreen.storyboard */; };
+		400FB9D91E6C489600682135 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400FB9D81E6C489600682135 /* MediaPlayer.framework */; };
+		400FB9DB1E6C48A600682135 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400FB9DA1E6C48A600682135 /* UIKit.framework */; };
+		400FB9DD1E6C48AE00682135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400FB9DC1E6C48AE00682135 /* Foundation.framework */; };
+		400FB9DF1E6C48B800682135 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400FB9DE1E6C48B800682135 /* CoreGraphics.framework */; };
+		400FB9E31E6C48DC00682135 /* DemoSong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 400FB9E11E6C48DC00682135 /* DemoSong.m4a */; };
+		400FB9E41E6C48DC00682135 /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 400FB9E21E6C48DC00682135 /* particleTexture.png */; };
+		400FB9E61E6C5D2F00682135 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400FB9E51E6C5D2F00682135 /* AVFoundation.framework */; };
+		400FB9E81E6C643500682135 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400FB9E71E6C643500682135 /* QuartzCore.framework */; };
+		400FB9F11E6C662C00682135 /* VisualizerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 400FB9F01E6C662C00682135 /* VisualizerView.mm */; };
+		400FB9F51E6C669E00682135 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 400FB9F31E6C669E00682135 /* MeterTable.cpp */; };
+		FE62B5F0FA5BE968E0732C1F /* Pods_Visualizer_Tech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F011D4E4BB0ED2E2BB24E6 /* Pods_Visualizer_Tech.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B98E9D83B0DB299D2A555F7 /* Pods-Visualizer Tech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visualizer Tech.release.xcconfig"; path = "Pods/Target Support Files/Pods-Visualizer Tech/Pods-Visualizer Tech.release.xcconfig"; sourceTree = "<group>"; };
 		400FB9C21E6C472400682135 /* Visualizer Tech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visualizer Tech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		400FB9C51E6C472400682135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		400FB9C71E6C472400682135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,21 @@
 		400FB9CC1E6C472400682135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400FB9CF1E6C472400682135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400FB9D11E6C472400682135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400FB9D81E6C489600682135 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		400FB9DA1E6C48A600682135 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		400FB9DC1E6C48AE00682135 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		400FB9DE1E6C48B800682135 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		400FB9E11E6C48DC00682135 /* DemoSong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = DemoSong.m4a; sourceTree = "<group>"; };
+		400FB9E21E6C48DC00682135 /* particleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleTexture.png; sourceTree = "<group>"; };
+		400FB9E51E6C5D2F00682135 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		400FB9E71E6C643500682135 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		400FB9EF1E6C662C00682135 /* VisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualizerView.h; sourceTree = "<group>"; };
+		400FB9F01E6C662C00682135 /* VisualizerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VisualizerView.mm; sourceTree = "<group>"; };
+		400FB9F21E6C665500682135 /* Visualizer Tech-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Visualizer Tech-Bridging-Header.h"; sourceTree = "<group>"; };
+		400FB9F31E6C669E00682135 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		400FB9F41E6C669E00682135 /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		B41240017FF72AAAE93E9660 /* Pods-Visualizer Tech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Visualizer Tech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Visualizer Tech/Pods-Visualizer Tech.debug.xcconfig"; sourceTree = "<group>"; };
+		D7F011D4E4BB0ED2E2BB24E6 /* Pods_Visualizer_Tech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Visualizer_Tech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400FB9E81E6C643500682135 /* QuartzCore.framework in Frameworks */,
+				400FB9E61E6C5D2F00682135 /* AVFoundation.framework in Frameworks */,
+				400FB9DF1E6C48B800682135 /* CoreGraphics.framework in Frameworks */,
+				400FB9DD1E6C48AE00682135 /* Foundation.framework in Frameworks */,
+				400FB9DB1E6C48A600682135 /* UIKit.framework in Frameworks */,
+				400FB9D91E6C489600682135 /* MediaPlayer.framework in Frameworks */,
+				FE62B5F0FA5BE968E0732C1F /* Pods_Visualizer_Tech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +74,8 @@
 			children = (
 				400FB9C41E6C472400682135 /* Visualizer Tech */,
 				400FB9C31E6C472400682135 /* Products */,
+				400FB9D71E6C489500682135 /* Frameworks */,
+				68E60E3F8CE87DDC2B6D6F73 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,51 @@
 			isa = PBXGroup;
 			children = (
 				400FB9C51E6C472400682135 /* AppDelegate.swift */,
+				400FB9E01E6C48CB00682135 /* Resources */,
 				400FB9C71E6C472400682135 /* ViewController.swift */,
+				400FB9EF1E6C662C00682135 /* VisualizerView.h */,
+				400FB9F01E6C662C00682135 /* VisualizerView.mm */,
+				400FB9F31E6C669E00682135 /* MeterTable.cpp */,
+				400FB9F41E6C669E00682135 /* MeterTable.h */,
 				400FB9C91E6C472400682135 /* Main.storyboard */,
 				400FB9CC1E6C472400682135 /* Assets.xcassets */,
 				400FB9CE1E6C472400682135 /* LaunchScreen.storyboard */,
 				400FB9D11E6C472400682135 /* Info.plist */,
+				400FB9F21E6C665500682135 /* Visualizer Tech-Bridging-Header.h */,
 			);
 			path = "Visualizer Tech";
+			sourceTree = "<group>";
+		};
+		400FB9D71E6C489500682135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400FB9E71E6C643500682135 /* QuartzCore.framework */,
+				400FB9E51E6C5D2F00682135 /* AVFoundation.framework */,
+				400FB9DE1E6C48B800682135 /* CoreGraphics.framework */,
+				400FB9DC1E6C48AE00682135 /* Foundation.framework */,
+				400FB9DA1E6C48A600682135 /* UIKit.framework */,
+				400FB9D81E6C489600682135 /* MediaPlayer.framework */,
+				D7F011D4E4BB0ED2E2BB24E6 /* Pods_Visualizer_Tech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400FB9E01E6C48CB00682135 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				400FB9E11E6C48DC00682135 /* DemoSong.m4a */,
+				400FB9E21E6C48DC00682135 /* particleTexture.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		68E60E3F8CE87DDC2B6D6F73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B41240017FF72AAAE93E9660 /* Pods-Visualizer Tech.debug.xcconfig */,
+				3B98E9D83B0DB299D2A555F7 /* Pods-Visualizer Tech.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 400FB9D41E6C472400682135 /* Build configuration list for PBXNativeTarget "Visualizer Tech" */;
 			buildPhases = (
+				2A0FA8EF4EDFD1AD2B515CDA /* [CP] Check Pods Manifest.lock */,
 				400FB9BE1E6C472400682135 /* Sources */,
 				400FB9BF1E6C472400682135 /* Frameworks */,
 				400FB9C01E6C472400682135 /* Resources */,
+				4E2D6347E86D0B12A41310F9 /* [CP] Embed Pods Frameworks */,
+				E5D866E71C406C15823D85CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +174,13 @@
 					400FB9C11E6C472400682135 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = Z6SZFEQ64K;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400FB9E31E6C48DC00682135 /* DemoSong.m4a in Resources */,
+				400FB9E41E6C48DC00682135 /* particleTexture.png in Resources */,
 				400FB9D01E6C472400682135 /* LaunchScreen.storyboard in Resources */,
 				400FB9CD1E6C472400682135 /* Assets.xcassets in Resources */,
 				400FB9CB1E6C472400682135 /* Main.storyboard in Resources */,
@@ -132,12 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A0FA8EF4EDFD1AD2B515CDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2D6347E86D0B12A41310F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Visualizer Tech/Pods-Visualizer Tech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D866E71C406C15823D85CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Visualizer Tech/Pods-Visualizer Tech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		400FB9BE1E6C472400682135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400FB9F51E6C669E00682135 /* MeterTable.cpp in Sources */,
 				400FB9C81E6C472400682135 /* ViewController.swift in Sources */,
+				400FB9F11E6C662C00682135 /* VisualizerView.mm in Sources */,
 				400FB9C61E6C472400682135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,26 +392,33 @@
 		};
 		400FB9D51E6C472400682135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41240017FF72AAAE93E9660 /* Pods-Visualizer Tech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = "Visualizer Tech/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "crzQag.Visualizer-Tech";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/crzQag/Desktop/Visualizer Tech/Visualizer Tech/Visualizer Tech-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		400FB9D61E6C472400682135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B98E9D83B0DB299D2A555F7 /* Pods-Visualizer Tech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = "Visualizer Tech/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "crzQag.Visualizer-Tech";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/crzQag/Desktop/Visualizer Tech/Visualizer Tech/Visualizer Tech-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
